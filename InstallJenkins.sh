@@ -32,8 +32,11 @@ java -Djenkins.install.runSetupWizard=false -jar jenkins.war
 #Install Suggested Plugins
 
 #open ports
-sudo firewall-cmd --zone=public --add-port=8080/tcp --permanent
+sudo firewall-cmd --zone=public --add-port=8081/tcp --permanent
 sudo firewall-cmd reload
+
+#just for test
+# lets see what it shows and does
 
 
 
